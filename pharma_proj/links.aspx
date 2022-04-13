@@ -46,7 +46,7 @@
                         <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/about.html" Target="f3">about us</asp:HyperLink>
                     </td>
                     <td class="auto-style4">
-                        <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/contact.html" Target="f2">contact us</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/contact.aspx" Target="f2">contact us</asp:HyperLink>
                     </td>
                     <td class="auto-style4">
                         <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/login.aspx" Target="_blank">log in</asp:HyperLink>

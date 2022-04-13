@@ -108,7 +108,7 @@
 <body>
     <form id="form2" runat="server">
         <div>
-            <table class="auto-style1" style="background-color: #99CCFF">
+            <table class="auto-style1" style="background-color: #99FFCC">
                 <tr>
                     <td class="auto-style3" style="color: #006666; font-family: Georgia; font-size: medium;">
                         <asp:Label ID="label1" runat="server" Font-Names="Arial Black" Font-Size="Medium" ForeColor="#336699" Text="First Name"></asp:Label>

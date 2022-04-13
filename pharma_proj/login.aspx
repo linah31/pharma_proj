@@ -25,7 +25,7 @@
 <body>
     <form id="form2" runat="server">
         <div>
-            <table class="auto-style1" style="font-family: Gabriola; background-color: #CCFFFF">
+            <table class="auto-style1" style="font-family: Gabriola; background-color: #99FFCC">
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td>
