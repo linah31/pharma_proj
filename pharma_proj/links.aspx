@@ -3,26 +3,25 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head>
     <title></title>
     <style type="text/css">
-
         .auto-style1 {
             width: 100%;
+        }
+        .auto-style2 {
+            width: 263px;
         }
         .auto-style3 {
             width: 263px;
             height: 21px;
         }
-        .auto-style5 {
-            height: 21px;
-            width: 174px;
-        }
         .auto-style4 {
             height: 21px;
         }
-        .auto-style2 {
-            width: 263px;
+        .auto-style5 {
+            height: 21px;
+            width: 174px;
         }
         .auto-style6 {
             width: 174px;
@@ -30,7 +29,7 @@
     </style>
 </head>
 <body>
-    <form id="form2" runat="server">
+    <form id="form1" runat="server">
         <div style="background-color: #99CCFF">
             <table class="auto-style1" style="background-color: #006666">
                 <tr>
@@ -74,10 +73,6 @@
                     <td>&nbsp;</td>
                 </tr>
             </table>
-        </div>
-    </form>
-    <form id="form1" runat="server">
-        <div>
         </div>
     </form>
 </body>
