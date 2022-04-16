@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="App_Data\pharma.mdf" />
+    <Content Include="App_Data\pharma_log.ldf">
+      <DependentUpon>pharma.mdf</DependentUpon>
+    </Content>
     <Content Include="contact.aspx" />
     <Content Include="home.aspx" />
     <Content Include="images\about-bg.jpg" />
