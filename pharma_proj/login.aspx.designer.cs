@@ -42,6 +42,15 @@ namespace pharma_proj
         protected global::System.Web.UI.WebControls.TextBox txtemail_login;
 
         /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+
+        /// <summary>
         /// label8 control.
         /// </summary>
         /// <remarks>
@@ -58,6 +67,15 @@ namespace pharma_proj
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtp_login;
+
+        /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
         /// btnlogin control.
