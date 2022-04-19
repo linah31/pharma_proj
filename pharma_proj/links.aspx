@@ -9,22 +9,24 @@
         .auto-style1 {
             width: 100%;
         }
-        .auto-style2 {
-            width: 263px;
-        }
         .auto-style3 {
-            width: 263px;
-            height: 21px;
+            width: 220px;
+            height: 9px;
         }
         .auto-style4 {
-            height: 21px;
+            height: 9px;
         }
         .auto-style5 {
-            height: 21px;
+            height: 9px;
             width: 174px;
         }
         .auto-style6 {
-            width: 174px;
+            height: 9px;
+            width: 102px;
+        }
+        .auto-style7 {
+            height: 9px;
+            width: 71px;
         }
     </style>
 </head>
@@ -48,26 +50,19 @@
                     <td class="auto-style4">
                         <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/contact.aspx" Target="f2">contact us</asp:HyperLink>
                     </td>
-                    <td class="auto-style4">
+                    <td class="auto-style7">
                         <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/login.aspx" Target="_blank">log in</asp:HyperLink>
                     </td>
-                    <td class="auto-style4">
+                    <td class="auto-style6">
                         <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/storelocator.aspx" Target="_blank">Store Locator</asp:HyperLink>
                     </td>
                     <td class="auto-style4">
-                        &nbsp;</td>
+                        <asp:HyperLink ID="HyperLink7" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/orderwithpre.aspx" Target="f3">order with prescription</asp:HyperLink>
+                    </td>
+                    <td class="auto-style4">
+                        </td>
                 </tr>
-                <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style6">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
+                </table>
         </div>
     </form>
 </body>
