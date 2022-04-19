@@ -68,10 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
-    <Content Include="App_Data\pharma.mdf" />
-    <Content Include="App_Data\pharma_log.ldf">
-      <DependentUpon>pharma.mdf</DependentUpon>
-    </Content>
     <Content Include="contact.aspx" />
     <Content Include="home.aspx" />
     <Content Include="images\about-bg.jpg" />
@@ -81,6 +77,7 @@
     <Content Include="links.aspx" />
     <Content Include="login.aspx" />
     <Content Include="signup.aspx" />
+    <Content Include="storelocator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +116,13 @@
     </Compile>
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="storelocator.aspx.cs">
+      <DependentUpon>storelocator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="storelocator.aspx.designer.cs">
+      <DependentUpon>storelocator.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -52,15 +52,10 @@
                         <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/login.aspx" Target="_blank">log in</asp:HyperLink>
                     </td>
                     <td class="auto-style4">
-                        <asp:Label ID="Label1" runat="server" Font-Bold="True" ForeColor="White" Text="Locations"></asp:Label>
+                        <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/storelocator.aspx" Target="_blank">Store Locator</asp:HyperLink>
                     </td>
                     <td class="auto-style4">
-                        <asp:DropDownList ID="DropDownList1" runat="server">
-                            <asp:ListItem>Maadi</asp:ListItem>
-                            <asp:ListItem>90 St. 5th Avanue</asp:ListItem>
-                            <asp:ListItem></asp:ListItem>
-                        </asp:DropDownList>
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>

@@ -16,7 +16,9 @@ namespace pharma_proj
 
         protected void btnsubmit_Click(object sender, EventArgs e)
         {
+
             lmsg.Text = "you are signed in !!";
+            
         }
     }
 }
