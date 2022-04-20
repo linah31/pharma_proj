@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="categories.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="home.aspx" />
     <Content Include="images\about-bg.jpg" />
@@ -77,11 +78,20 @@
     <Content Include="links.aspx" />
     <Content Include="login.aspx" />
     <Content Include="orderwithpre.aspx" />
+    <Content Include="pp.html" />
+    <Content Include="shippingpolicy.html" />
     <Content Include="signup.aspx" />
     <Content Include="storelocator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="categories.aspx.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="categories.aspx.designer.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
