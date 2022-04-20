@@ -73,7 +73,13 @@
     <Content Include="home.aspx" />
     <Content Include="images\about-bg.jpg" />
     <Content Include="images\back10.jpg" />
+    <Content Include="images\haircare.jpg" />
+    <Content Include="images\medications.jpg" />
+    <Content Include="images\oralcare.jpg" />
     <Content Include="images\pharmalogo.png" />
+    <Content Include="images\skincare.jpg" />
+    <Content Include="images\vitamins.jpg" />
+    <Content Include="images\wl.jpg" />
     <Content Include="index.html" />
     <Content Include="links.aspx" />
     <Content Include="login.aspx" />

@@ -66,16 +66,16 @@
                         <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/home.aspx" Target="f3">Home</asp:HyperLink>
                     </td>
                     <td class="auto-style11">
-                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/signup.aspx" Target="_blank">sign up</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/signup.aspx" Target="f3">sign up</asp:HyperLink>
                     </td>
                     <td class="auto-style12">
                         <asp:HyperLink ID="HyperLink4" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/about.html" Target="f3">about us</asp:HyperLink>
                     </td>
                     <td class="auto-style13">
-                        <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/contact.aspx" Target="f2">contact us</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/contact.aspx" Target="_blank">contact us</asp:HyperLink>
                     </td>
                     <td class="auto-style7">
-                        <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/login.aspx" Target="_blank">log in</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/login.aspx" Target="f3">log in</asp:HyperLink>
                     </td>
                     <td class="auto-style6">
                         <asp:HyperLink ID="HyperLink6" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/storelocator.aspx" Target="_blank">Store Locator</asp:HyperLink>
@@ -91,7 +91,7 @@
                                 window.screenLeft(400,400)
                             }
                         </script>
-                        <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/contact.aspx" Target="_blank">categories</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink8" runat="server" Font-Bold="True" ForeColor="White" NavigateUrl="~/categories.aspx" Target="_blank">categories</asp:HyperLink>
                     </td>
                     <td class="auto-style15">
                         <asp:Button ID="Button1" runat="server" Text="scroll" OnClientClick="myscroll()"  OnClick="Button1_Click1" />
